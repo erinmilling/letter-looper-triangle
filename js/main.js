@@ -2,10 +2,10 @@
 
   var i = 0;
 
-  for (i = 0; i x 2; i++) {
-    document.write(newLetter + '<br>');
+  for (b = 0; b < 11; b++) {
+    for (i = 0; i < b; i++) {
+      document.write(newLetter);
+    }
+    document.write('<br>');
   }
-};
 
-var addLetter = function(newLetter) {
-newLetter('b');
