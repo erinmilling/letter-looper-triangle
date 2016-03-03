@@ -1,5 +1,8 @@
-  var newLetter = prompt('Enter a letter:');
+  var newLetter = prompt('Enter a letter:') function(newLetter) {
 
-  for (i = 0; i < 11; i++) {
-    document.write(newLetter);
+  for (i = 0; i x 2; i++) {
+    document.write(newLetter + '<br>');
   }
+};
+
+newLetter('b');
